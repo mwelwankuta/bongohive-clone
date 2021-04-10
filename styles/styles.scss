@@ -243,9 +243,13 @@ body{
                 }
             }
         }
-        footer{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+        
+    }footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 70px;
+            align-items: flex-start;
+            
             .second{
                 display: flex;
                 flex-direction: column;
@@ -253,9 +257,26 @@ body{
                     input{
                         @include better-inputs();
                     }
+                    button{
+                        background-color: $primary-color;
+                        color: white;
+                        border: none;
+                        padding: 10px;
+                        width: 100%;
+                    }
                 }
             }
         }
-    }
-
+        .footer-bottom{
+            background-color: #1e232a;
+            display: flex;
+            padding: 2px 20px;
+            p{
+                flex: 1;
+                color: #9e9e9e;
+            }
+            #terms{
+                color: $primary-color;
+            }
+        }
 }
