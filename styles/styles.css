@@ -23,6 +23,7 @@ body nav {
 
 body nav i {
   color: #f5a623;
+  margin-left: 5px;
 }
 
 body nav .left-side {
@@ -57,7 +58,7 @@ body nav .right-side ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 37px;
   margin-top: 10px;
 }
 
@@ -65,7 +66,7 @@ body nav .right-side ul a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 body nav .right-side ul a:hover {
